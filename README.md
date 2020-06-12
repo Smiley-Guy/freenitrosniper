@@ -1,4 +1,4 @@
-# freenitrosniper
+# FreeNitroSniper
 ## This is a free discord nitro sniper. Change the token in the .py file and wait for Discord Nitro Gifts
 
 ### How to use this code
