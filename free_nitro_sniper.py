@@ -31,7 +31,7 @@ async def on_message(message):
             'channel_id': None,
             'payment_source_id': None
         }
-        r = requests.post('https://discordapp.com/api/v6/entitlements/gift-codes/'+code+'/redeem', verify=False,headers=headers, json=json)
+        r = requests.post('https://discordapp.com/api/v6/entitlements/gift-codes/'+code+'/redeem',headers=headers, json=json)
         if r.status_code == 200:
             print(Fore.GREEN + "=> Successfully claimed Nitro with Code: "+code)
         else:
